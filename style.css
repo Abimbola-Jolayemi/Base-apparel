@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+#bitmap{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+.main-container #bitmap img{
+    height: 100vh;
+    width: 90%;
+}
+
+.logo{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.base-apparel-logo{
+    width: 31px;
+    height: 31px;
+}
+
+.apparels{
+    width: 115.59px;
+    height: 31.5px;
+    color: #423A3A;
+}
+
+.second-container{
+    width: 445px;
+    height: 192px;
+    padding-top: 50px;
+}
+
+.second-container .we-are{
+    color: #CE9898;
+    font-size: 64px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 64px;
+    letter-spacing: 10px;
+    width: 444px;
+    
+}
+
+.second-container h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 64px;
+    line-height: 71px;
+    letter-spacing: 10px;
+}
+
+.small-text{
+    width: 445px;
+    height: 84px;
+}
+
+.small-text h6{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #CE9898;
+    line-height: 28px;
+}
+
+.email-container{
+    padding-top: 20px;
+}
+
+.email-address{
+    width: 445px;
+    height: 56px;
+    border: 1px solid #CE9898;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-address input{
+    border: none;
+    margin-left: 15px;
+    width: 80%;
+    height: 40px;
+    outline: none;
+}
+
+input::placeholder{
+    color: #CE9898;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#icon{
+    width: 90px;
+    height: 56px;
+    background-color: #CE9898;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    box-shadow: 0px 2px 15px #CE9898;
+}
